@@ -8,7 +8,7 @@ The purpose of the graduation project was to develop a model of a robot directio
 
 ## Hardware components
 
-- Arduino Uno [![arduino-3235092483.png](https://i.postimg.cc/d3TZ5LBL/arduino-3235092483.png)](https://postimg.cc/30YwRrzT)
+- Arduino Uno [![arduino-3235092483.png](https://i.postimg.cc/QN5pgynS/arduino-3235092483.png)](https://postimg.cc/YjrGMb7m)
 - Raspberry Pi 4 (8Gb RAM)
 - Servo MG995
 - Voltage converter DC-DC LM2596S
