@@ -1,4 +1,4 @@
-# Autonomous Robotic Device [*GRADUATION PROJECT*]
+# Autonomous Robotic Device [ *GRADUATION PROJECT* ]
 
 ## Description
 
