@@ -8,7 +8,7 @@ The purpose of the graduation project was to develop a model of a robot directio
 
 ## Hardware components
 
-- Arduino Uno [![arduino-logo-0-1904931468.png](https://i.postimg.cc/xCXBF2bX/arduino-logo-0-1904931468.png)](https://postimg.cc/0Mqtbhnv)
+- Arduino Uno 
 - Raspberry Pi 4 (8Gb RAM)
 - Servo MG995
 - Voltage converter DC-DC LM2596S
@@ -18,7 +18,7 @@ The purpose of the graduation project was to develop a model of a robot directio
 
 ## Used software
 
-- Arduino IDE (C++)
-- Geany programmers editor (Python)
+- Arduino IDE (C++) [![arduino-logo-0-1904931468.png](https://i.postimg.cc/xCXBF2bX/arduino-logo-0-1904931468.png)](https://postimg.cc/0Mqtbhnv)
+- Geany programmers editor (Python) ![](https://img.icons8.com/?size=100&id=1909&format=png&color=000000)
 - Kompas-3D
 - Altium Designer 23
