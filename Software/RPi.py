@@ -10,15 +10,13 @@ camera.start()
 
 x_last = 160
 y_last = 90
-
-ser = serial.Serial('/dev/ttyACM0', 9600) # Replace '/dev/ttyACM0' to your own Arduino Uno port 
 ang = 10
 error = 7
-no_turn_time = time.time()
+
+ser = serial.Serial('/dev/ttyACM0', 9600) # Replace '/dev/ttyACM0' to your own Arduino Uno port 
 
 while True:
     camera.capture_array()
-
     frame = camera.capture_image()
     image = camera.capture_array()
 
