@@ -19,6 +19,12 @@ The purpose of the graduation project was to develop a model of a robot directio
 ## Used software
 
 - Arduino IDE (C++) [![arduino-logo-0-1904931468.png](https://i.postimg.cc/xCXBF2bX/arduino-logo-0-1904931468.png)](https://postimg.cc/0Mqtbhnv)
-- Geany programmers editor (Python) ![](https://img.icons8.com/?size=100&id=1909&format=png&color=000000)
+- Geany programmers editor (Python)
 - Kompas-3D
 - Altium Designer 23
+
+## The control algorithm 
+
+The power system is started through a switch. After her The LED modules on the front of the robot are turned on. Then the Raspberry Pi and Arduino Uno controllers are initialized, and as well as the components connected to them in the form of an RPi camera module camera. The movement of the robot is carried out along a pre-drawn black line to demonstrate the capabilities of computer vision within the of this device layout. 
+
+A prerequisite for starting the script execution on microcomputer is the detection of a black line in the coverage area Camera. If the module does not detect a black line, it is necessary to restart the Raspberry Pi. The image from the camera is processed with neural masks separating the black line from the surface, which allows you to follow her. Depending on the position of the black line relative to the field of view of the RPi camera, an error is sent on Serial Interface to the Arduino Uno board.
