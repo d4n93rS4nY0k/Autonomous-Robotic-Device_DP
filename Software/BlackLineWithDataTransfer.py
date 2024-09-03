@@ -9,7 +9,7 @@ import time
 import spidev
 
 GPIO.setmode(GPIO.BCM)
-
+###################################################################	CAMERA INIT ###########################################################################################################
 camera = Picamera2()
 camera.configure(camera.create_preview_configuration(main={"format": 'XRGB8888', "size": (300, 180)}))
 camera.start()
